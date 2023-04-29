@@ -44,3 +44,7 @@ Thumbs.db
 
 .vscode
 .dist
+
+# pocketbase it holds the data
+packages/pocketbase-docker/pocketbase/pb_data
+
