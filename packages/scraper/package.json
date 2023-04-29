@@ -1,0 +1,19 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "main": "dist/index.ts",
+  "scripts": {
+    "build": "ts-node index.ts --outDir dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "is-valiantlynx": "*",
+    "puppeteer": "^19.11.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
